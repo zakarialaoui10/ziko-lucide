@@ -1,0 +1,20 @@
+import {tags} from 'ziko';
+const {svg} = tags;
+const Egg = (props) => 
+    svg(
+        {
+        ...{
+         "viewBox": "0 0 24 24",
+         "fill": "none",
+         "width": 24,
+         "height": 24,
+         "stroke": "green",
+         "stroke-width": 2,
+         "stroke-linecap": "round",
+         "stroke-linejoin": "round"
+        },
+        ...props
+        },
+    tags.path({"d":"M12 2C8 2 4 8 4 14a8 8 0 0 0 16 0c0-6-4-12-8-12"})
+    )
+export default Egg;

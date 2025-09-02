@@ -1,0 +1,29 @@
+{
+  "name": "ziko-lucide",
+  "version": "0.0.0",
+  "description": "Lucide Icons for ZikoJs",
+  "keywords": [
+    "zikojs",
+    "lucide",
+    "icons",
+    "svg"
+  ],
+  "homepage": "https://github.com/zakarialaoui10/ziko-lucide#readme",
+  "bugs": {
+    "url": "https://github.com/zakarialaoui10/ziko-lucide/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zakarialaoui10/ziko-lucide.git"
+  },
+  "license": "MIT",
+  "author": "zakaria elalaoui",
+  "type": "module",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lucide": "^0.542.0"
+  }
+}
