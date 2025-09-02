@@ -1,6 +1,6 @@
 {
   "name": "ziko-lucide",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Lucide Icons for ZikoJs",
   "keywords": [
     "zikojs",
@@ -24,6 +24,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "lucide": "^0.542.0"
+    "lucide": "^0.542.0",
+    "ziko": "^0.45.2"
   }
 }
