@@ -8,6 +8,11 @@
     "icons",
     "svg"
   ],
+  "files": [
+    "generated-src",
+    "package.json",
+    "README.md"
+  ],
   "homepage": "https://github.com/zakarialaoui10/ziko-lucide#readme",
   "bugs": {
     "url": "https://github.com/zakarialaoui10/ziko-lucide/issues"
