@@ -1,6 +1,6 @@
 {
   "name": "ziko-lucide",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Lucide Icons for ZikoJs",
   "keywords": [
     "zikojs",
@@ -13,6 +13,10 @@
     "package.json",
     "README.md"
   ],
+  "exports": {
+    ".": "./generated-src/index.js",
+    "./*": "./generated-src/icons/*.js"
+  },
   "homepage": "https://github.com/zakarialaoui10/ziko-lucide#readme",
   "bugs": {
     "url": "https://github.com/zakarialaoui10/ziko-lucide/issues"
@@ -29,6 +33,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
+    "create-vite": "^6.5.0",
     "lucide": "^0.542.0",
     "ziko": "^0.45.2"
   }
