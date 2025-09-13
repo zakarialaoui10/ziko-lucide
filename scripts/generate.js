@@ -6,7 +6,7 @@ const generate_component = (Icon_name,items) => {
 return `
 import {tags} from 'ziko';
 const {svg} = tags;
-const ${Icon_name} = (props) => 
+export const ${Icon_name} = (props) => 
     svg(
         {
         ...${defaultProps.slice(0,-2)}
@@ -15,7 +15,7 @@ const ${Icon_name} = (props) =>
         },
     ${items}
     )
-export default ${Icon_name};
+// export default ${Icon_name};
 `.trimStart()
 }
 
@@ -57,9 +57,9 @@ function generate(){
         if(items === -1) continue;
         
         items = items.join(',\n\t')
-        _exports.add(`export {default as ${Icons[i]}} from './icons/${Icons[i]}.js'`)
+        _exports.add(`export {${Icons[i]}} from './icons/${Icons[i]}.js'`)
         // console.log(i, Icons[i])
-    //  writeFileSync(`./generated-src/icons/${Icons[i]}.js`, generate_component(Icons[i],items))
+     writeFileSync(`./generated-src/icons/${Icons[i]}.js`, generate_component(Icons[i],items))
     }
     writeFileSync(`./generated-src/index.js`,[..._exports].join('\n'))
 }
