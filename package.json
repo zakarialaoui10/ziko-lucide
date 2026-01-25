@@ -1,6 +1,6 @@
 {
   "name": "ziko-lucide",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Lucide Icons for ZikoJs",
   "keywords": [
     "zikojs",
@@ -35,6 +35,6 @@
   "dependencies": {
     "create-vite": "^6.5.0",
     "lucide": "^0.542.0",
-    "ziko": "^0.45.2"
+    "ziko": "^0.57.1"
   }
 }
