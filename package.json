@@ -1,6 +1,6 @@
 {
   "name": "ziko-lucide",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "Lucide Icons for ZikoJs",
   "keywords": [
     "zikojs",
@@ -30,11 +30,12 @@
   "type": "module",
   "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "generate": "node ./scripts/generate.js"
   },
   "dependencies": {
     "create-vite": "^6.5.0",
-    "lucide": "^0.542.0",
-    "ziko": "^0.57.1"
+    "lucide": "^0.563.0",
+    "ziko": "^0.60.1"
   }
 }
