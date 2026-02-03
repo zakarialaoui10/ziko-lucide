@@ -37,7 +37,7 @@ export const ${Icon_name} = (props) =>
     },
     ${items}
 )
-// export default ${Icon_name};
+export default ${Icon_name};
 `.trimStart()
 }
 
