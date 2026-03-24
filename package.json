@@ -34,8 +34,8 @@
     "generate": "node ./scripts/generate.js"
   },
   "dependencies": {
-    "create-vite": "^6.5.0",
-    "lucide": "^0.563.0",
-    "ziko": "^0.60.1"
+    "create-vite": "^9.0.3",
+    "lucide": "^1.0.1",
+    "ziko": "^1.0.0"
   }
 }

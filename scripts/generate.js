@@ -26,7 +26,7 @@ const DUPLICATED = [
 
 const generate_component = (Icon_name, items) => {
   return `
-import { tags } from 'ziko/ui';
+import { tags } from 'ziko/dom';
 const { svg } = tags;
 export const ${Icon_name} = (props) => 
     svg(
